@@ -9,5 +9,6 @@ angular
       })
       .when("/resultComponent", {
         template: "<result-component></result-component>"
-      });
+      })
+      .otherwise("/componentName");
   });
